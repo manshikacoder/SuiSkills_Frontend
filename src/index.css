@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.partners-carousel .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    display: none !important;
+}
+
+.partners-carousel .owl-items img{
+    height:120px !important;
+    width:255px!important;
+}
+
+.owl-carousel .owl-item img{
+    display:inline!important;
+    width:auto!important;
+}

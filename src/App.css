@@ -1,0 +1,3 @@
+.partners-carousel .owl-theme .owl-nav.disabled + .owl-dots {
+    display:none;
+}
