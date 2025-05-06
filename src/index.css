@@ -14,3 +14,33 @@
     display:inline!important;
     width:auto!important;
 }
+
+/* AI Animation */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  }
+  25% {
+    transform: translate(8px, -8px) scale(1.05);
+    background: linear-gradient(135deg, #38bdf8, #f472b6);
+  }
+  50% {
+    transform: translate(12px, 6px) scale(1.1);
+    background: linear-gradient(135deg, #34d399, #818cf8);
+  }
+  75% {
+    transform: translate(-8px, 8px) scale(1.05);
+    background: linear-gradient(135deg, #fb923c, #8b5cf6);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  }
+}
+
+.animate-blob {
+  animation: blob 8s infinite ease-in-out;
+  background-size: 200% 200%;
+  transition: background 0.5s ease-in-out;
+}

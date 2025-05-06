@@ -91,7 +91,7 @@ const TrendingJobSection = () => {
     <div className="bg-gray-100 py-10">
       <div className="max-w-7xl mx-auto px-4">
         <Heading
-          title="Trending Jobs for"
+          title="Trending Jobs for You"
           subtitle="Verified employers hiring skilled workers like you."
           textAlign="text-center"
           titleColor="text-black-800"
@@ -106,7 +106,7 @@ const TrendingJobSection = () => {
             className="owl-theme"
             loop
             margin={20}
-            nav
+            nav={false}
             dots={false}
             autoplay
             responsive={responsiveOptions}
